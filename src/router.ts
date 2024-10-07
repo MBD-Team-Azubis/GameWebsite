@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 
-import About from "../src/components/About.vue";
-import HelloWorld from "../src/components/HelloWorld.vue";
+import About from "./components/Blackjack.vue";
+import HelloWorld from "./components/Hub.vue";
 
 export default createRouter({
   history: createWebHashHistory(),
